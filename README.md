@@ -6,9 +6,9 @@ Due Date:	Nov 24, 2015
 
 You are responsible to implement the binary tree algorithms in Java.  This BST class should have bst_insert(), bst_delete() and bst_search() method in addition to the default BST constructor.  You need to implement the bst_inorder() and bst_preorder() methods to traverse the tree.  After the whole tree is constructed, you will call both the inorder and preorder methods to display it’s content.  You are given 2 sample test data file that you can redirect from the command line when you run your program.  For delete and search, you need to return the ID (position) of the string if found, return 0 if not found.  Print out the result from your p3 main() method.
 
-```java
-Program Specification:
+### Program Specification:
 
+```java
 class Node{
 	int ID;                       /* the original position of the data starting from 1 */
 	String data;
@@ -27,7 +27,8 @@ public class BST {
 	public BST(){
 		this.root = null;
 	}
-…
+
+//…
 }
 ```
 
@@ -48,6 +49,6 @@ You need to handle 3 different scenarios for bst_delete()
      Depending on the path, you will have to attach and detach more pointer links in the tree.
 4.  Able to handle deletion of the root node.
 
-Program Checklist:
+### Program Checklist:
 
 You will submit a zip file contain all your source files (e.g. p3.java, BST.java, Node.java, …).
